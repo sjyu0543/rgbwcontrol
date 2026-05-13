@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <!-- R -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="R"
+            android:textColor="#FF4444"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/sb_red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="350" />
+
+        <EditText
+            android:id="@+id/tv_red_value"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="end"
+            android:inputType="number"
+            android:maxLength="3"
+            android:imeOptions="actionDone"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- G -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:textColor="#44BB44"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/sb_green"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="350" />
+
+        <EditText
+            android:id="@+id/tv_green_value"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="end"
+            android:inputType="number"
+            android:maxLength="3"
+            android:imeOptions="actionDone"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- B -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textColor="#4488FF"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/sb_blue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="350" />
+
+        <EditText
+            android:id="@+id/tv_blue_value"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="end"
+            android:inputType="number"
+            android:maxLength="3"
+            android:imeOptions="actionDone"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- W -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:textColor="#AAAAAA"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/sb_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="350" />
+
+        <EditText
+            android:id="@+id/tv_white_value"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="end"
+            android:inputType="number"
+            android:maxLength="3"
+            android:imeOptions="actionDone"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
